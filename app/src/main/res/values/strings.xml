@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">ParkingPlaces</string>
+    <string name="parking_name">Parking name</string>
+    <string name="area_name">Parking area</string>
+    <string name="capacity">capacity</string>
+    <string name="dist_from_gadde">Dist from gadde</string>
+    <string name="dist_from_busPoint">Dist from Bus</string>
+    <string name="dist_from_current_loc">Dist from Current Loc</string>
+    <string name="parking_status">Parking status</string>
+
+
+    <string name="rent">Rent from R29.99</string>
+    <string name="buy">Buy from R129.99</string>
+    <string name="template_movie_details">March 2017 PG 129 minutes</string>
+    <string name="template_movie_title">Beauty and the Beast</string>
+    <string name="template_movie_genre">Family</string>
+    <string name="template_rotten_tomato_rating">71%</string>
+    <string name="template_similar">Similar</string>
+    <string name="template_movie_description">The story and characters you know and love come to spectacular life in the live-action adaption of Disney\'s animated classic Beauty and the Beast.</string>
+    <string name="template_number_ratings">242 ratings</string>
+    <string name="content_description_add_playlist">Add to watchlist</string>
+    <string name="content_description_poster">Movie Poster Image</string>
+    <string name="content_description_hero_image">Hero Image</string>
+    <string name="email">EMAIL</string>
+    <string name="call">CALL</string>
+    <string name="navigate">NAVIGATE</string>
+    <string name="option_circular_demo">Circular Demo</string>
+
+</resources>

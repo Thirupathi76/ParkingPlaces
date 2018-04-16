@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+     <item
+       android:id="@+id/action_parking1"
+       android:title="Parking1"
+       app:showAsAction="never" />
+    <item
+        android:id="@+id/action_parking2"
+        android:title="parking2"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_parking3"
+        android:title="parking3"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_feedback"
+        android:title="Feedback"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_recycler"
+        android:title="RV ex"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_single"
+        android:title="Single list"
+        app:showAsAction="never"/>
+</menu>

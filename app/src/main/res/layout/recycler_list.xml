@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardBackgroundColor="#fff"
+    card_view:cardCornerRadius="8dp"
+    card_view:cardElevation="5dp"
+    card_view:cardUseCompatPadding="true">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#a9fce8">
+
+    <LinearLayout
+        android:id="@+id/layout_main_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:id="@+id/layout_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:text="@string/parking_name"
+                android:textColor="#000"
+                
+                android:includeFontPadding="false"
+
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/parking_name"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="4dp"
+                android:text="Medaram 1"
+                android:includeFontPadding="false"
+                android:textColor="#3949ab"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#c6c6c6"
+        android:layout_marginTop="5dp"/>
+
+    <LinearLayout
+        android:id="@+id/layout_main_ulb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:layout_marginEnd="10dp"
+        android:orientation="horizontal">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/area_name"
+            android:textSize="16sp"
+            android:textColor="#000"
+            
+            android:includeFontPadding="false"
+
+            android:textStyle="normal"
+            android:layout_marginStart="4dp"/>
+
+        <TextView
+            android:id="@+id/area_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medram Area"
+            android:textSize="16sp"
+            
+            android:includeFontPadding="false"
+            android:textColor="#3949ab"
+            android:textStyle="normal"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"/>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#c6c6c6"
+        android:layout_marginTop="5dp"/>
+
+    <LinearLayout
+        android:id="@+id/layout_capacity_parking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="horizontal">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/capacity"
+            android:textSize="16sp"
+            
+            android:includeFontPadding="false"
+
+            android:textColor="#000"
+            android:textStyle="normal"
+            android:layout_marginStart="4dp"/>
+
+        <TextView
+            android:id="@+id/text_capacity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="156"
+            
+            android:includeFontPadding="false"
+            android:textSize="16sp"
+            android:textColor="#3949ab"
+            android:textStyle="normal"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"/>
+
+
+    </LinearLayout>
+   <!-- <LinearLayout
+        android:id="@+id/layout_capacity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/capacity"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:textStyle="normal"
+            android:layout_marginStart="4dp"/>
+
+        <TextView
+            android:id="@+id/text_capacity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sth is not good"
+            android:textSize="14sp"
+            android:textColor="#000"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="15dp"
+            android:textStyle="normal"/>
+
+    </LinearLayout>-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#c6c6c6"
+        android:layout_marginTop="5dp"/>
+
+    <LinearLayout
+        android:id="@+id/layout_distance_busPoint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:layout_marginEnd="10dp"
+        android:orientation="horizontal">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dist_from_gadde"
+            android:textSize="16sp"
+            android:textColor="#000"
+            
+            android:includeFontPadding="false"
+            android:textStyle="normal"
+            android:layout_marginStart="5dp"/>
+
+        <TextView
+            android:id="@+id/text_dist_gadde"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10KM"
+            
+            android:includeFontPadding="false"
+            android:textSize="16sp"
+            android:textColor="#3949ab"
+            android:textStyle="normal"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"/>
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#c6c6c6"
+        android:layout_marginTop="5dp"/>
+    <LinearLayout
+        android:id="@+id/layout_distance_gadde"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:layout_marginEnd="10dp"
+        android:orientation="horizontal">
+
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text_bus"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:text="@string/dist_from_busPoint"
+                android:textSize="16sp"
+                android:textColor="#000"
+                
+                android:includeFontPadding="false"
+
+                android:textStyle="normal"
+                android:layout_marginStart="5dp"/>
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/text_dist_busPoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10KM"
+            
+            android:includeFontPadding="false"
+            android:textSize="16sp"
+            android:textColor="#3949ab"
+            android:textStyle="normal"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#c6c6c6"
+        android:layout_marginTop="5dp"/>
+    <LinearLayout
+        android:id="@+id/layout_distance_current_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:layout_marginEnd="10dp"
+        android:orientation="horizontal">
+
+
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="@string/dist_from_current_loc"
+            android:textSize="16sp"
+            android:textColor="#000"
+            
+            android:includeFontPadding="false"
+            android:textStyle="normal"
+            android:layout_marginStart="5dp"/>
+
+        <TextView
+            android:id="@+id/text_dist_current_loc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10KM"
+            
+            android:includeFontPadding="false"
+            android:textSize="16sp"
+            android:textColor="#3949ab"
+            android:textStyle="normal"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"/>
+
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#c6c6c6"
+        android:layout_marginTop="5dp"/>
+
+    <LinearLayout
+        android:id="@+id/layout_parking_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:layout_marginEnd="10dp"
+        android:orientation="horizontal">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/parking_status"
+            android:textSize="16sp"
+            android:textColor="#000"
+            
+            android:includeFontPadding="false"
+            android:textStyle="normal"
+            android:layout_marginStart="4dp"/>
+
+        <TextView
+            android:id="@+id/text_parking_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10KM"
+            android:textSize="16sp"
+            android:textColor="#3949ab"
+            android:textStyle="normal"
+            
+            android:includeFontPadding="false"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"/>
+
+
+    </LinearLayout>
+
+
+
+    <!--<LinearLayout
+        android:id="@+id/layout_parking_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/parking_status"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:textStyle="normal"
+            android:layout_marginStart="4dp"/>
+
+        <TextView
+            android:id="@+id/text_parking_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sth is not good"
+            android:textSize="14sp"
+            android:textColor="#000"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="15dp"
+            android:textStyle="normal"/>
+
+    </LinearLayout>-->
+<!--
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#fff"
+        android:layout_marginTop="10dp"/>-->
+
+
+</LinearLayout>
+</android.support.v7.widget.CardView>
