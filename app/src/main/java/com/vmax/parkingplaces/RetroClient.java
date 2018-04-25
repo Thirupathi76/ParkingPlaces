@@ -11,7 +11,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class RetroClient {
 
     public static final String ROOT_URL = "https://github.com/Thirupathi76/SearchMap/raw/master/Parkingplaces/";
-    public static final String MAIN_URL = "http://municipalservices.in/api/";
+    public static final String MAIN_URL = "http://website/folder/yourapi";
 
     private String url;
     /**
